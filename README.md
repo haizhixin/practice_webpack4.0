@@ -1,1 +1,1 @@
-# pratice_webpack4.0
+# practice_webpack4.0
