@@ -1,0 +1,23 @@
+{
+  "name": "practice_webpack4.0",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haizhixin/practice_webpack4.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haizhixin/practice_webpack4.0/issues"
+  },
+  "homepage": "https://github.com/haizhixin/practice_webpack4.0#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
