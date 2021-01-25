@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #root {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    什么是loader？
+    loader就是webpack的模块打包方案，不同的模块采用不同的打包方案
+    webpack默认只会打包处理js文件，对于其他类型的文件不识别，因为需要对应的loader去转化。
+    
+    webpack.config.js配置文件的module是用来告诉模块如何处理文件
+     -->
+    <div id="root"></div>
+    <script src='./bundle.js'></script>
+</body>
+
+</html>

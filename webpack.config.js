@@ -9,6 +9,25 @@ module.exports = {
     
     // _dirname //当前文件的目录名
     // path.resolve()将路径或路径片段的序列从右向左解析为绝对路径
+  },
+  module:{
+    rules:[{
+      test:/\.jpg$/,
+      use:{
+        loader:"url-loader",
+        options:{
+          outputPath:'images/',//把对应的文件输出到dist下的images文件夹下
+          name:'[name].[ext]',//更改输出的文件名
+          limit:2048//当小于2048字节时，图片会以base64的编码方式（DataUrl）直接输出到js文件中，大于时像file-loader一样输出到images文件夹下
+        }
+        
+      }
+    },{
+      test:/\.vue$/,
+      use:{
+        loader:"vue-loader"
+      }
+    }]
   }
 
 

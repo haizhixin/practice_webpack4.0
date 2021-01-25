@@ -86,39 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/content.js":
+/***/ "./src/avatar.jpg":
 /*!************************!*\
-  !*** ./src/content.js ***!
+  !*** ./src/avatar.jpg ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"我是身体\");\n\n//# sourceURL=webpack:///./src/content.js?");
-
-/***/ }),
-
-/***/ "./src/footer.js":
-/*!***********************!*\
-  !*** ./src/footer.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"我是底部\");\n\n//# sourceURL=webpack:///./src/footer.js?");
-
-/***/ }),
-
-/***/ "./src/hearder.js":
-/*!************************!*\
-  !*** ./src/hearder.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"我是头部\");\n\n//# sourceURL=webpack:///./src/hearder.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7517275165151b3d8204ef918dba7654.jpg\");\n\n//# sourceURL=webpack:///./src/avatar.jpg?");
 
 /***/ }),
 
@@ -130,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hearder__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hearder */ \"./src/hearder.js\");\n/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./content */ \"./src/content.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.write(\"我是主页,Hello webpack\")\r\n\r\ndocument.write(_hearder__WEBPACK_IMPORTED_MODULE_0__[\"default\"] + \"<br>\")\r\ndocument.write(_content__WEBPACK_IMPORTED_MODULE_1__[\"default\"] + \"<br>\")\r\ndocument.write(_footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"])\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _avatar_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./avatar.jpg */ \"./src/avatar.jpg\");\n\r\n// import header from './header.vue'\r\n\r\ndocument.write(\"我是主页,Hello webpack\")\r\nvar img = new Image()\r\nimg.src = _avatar_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\r\nvar root = document.getElementById(\"root\");\r\nroot.append(img)\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

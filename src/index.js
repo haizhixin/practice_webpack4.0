@@ -1,11 +1,13 @@
-import hearder from './hearder';
-import content from './content';
-import footer from './footer';
-
-
+import avatar from './avatar.jpg'
+// import header from './header.vue'
 
 document.write("我是主页,Hello webpack")
+var img = new Image()
+img.src = avatar;
+var root = document.getElementById("root");
+root.append(img)
 
-document.write(hearder + "<br>")
-document.write(content + "<br>")
-document.write(footer)
+
+
+
+
