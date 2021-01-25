@@ -1,0 +1,17 @@
+body {
+    .avatar {
+        width: 150px;
+        height: 150px;
+        transform: translate(100px, 100px);
+    }
+
+    .root {
+        background-image: url("./avatar.jpg");
+        background-size: 100%;
+        width: 400px;
+        height: 400px;
+    }
+
+
+
+}

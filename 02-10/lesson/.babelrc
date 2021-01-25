@@ -1,0 +1,38 @@
+{
+
+  
+"presets": [["@babel/preset-env", {
+  "modules": false,//不转化module
+	"targets": {
+     "chrome": "67"
+   },
+	"useBuiltIns": "usage"
+}]]
+// ,
+// 	"plugins": [["@babel/plugin-transform-runtime", {
+// 		"corejs": 2,
+//     "helpers": true,
+//     "regenerator": true,
+//     "useESModules": false
+// 	}]]
+}
+
+
+
+// {
+//   "presets": [
+//     ["env", {
+//       "modules": false,
+//       "targets": {
+//         "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+//       }
+//     }],
+//     "stage-2"
+//   ],
+//   "plugins": ["transform-runtime",
+//     ["import", [{
+//       "libraryName": "vant",
+//       "style": true
+//     }]]
+//   ]
+// }
