@@ -1,0 +1,26 @@
+{
+  "name": "practice_webpack4.0",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haizhixin/practice_webpack4.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haizhixin/practice_webpack4.0/issues"
+  },
+  "homepage": "https://github.com/haizhixin/practice_webpack4.0#readme",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
