@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],[function(n,e,o){"use strict";o.r(e),o.d(e,"ff",(function(){return c})),o.d(e,"aa",(function(){return t}));const c=()=>(console.log("输出"),{name:"Dell Lee"}),t={name:"张安"}}]]);
+//# sourceMappingURL=test.js.map

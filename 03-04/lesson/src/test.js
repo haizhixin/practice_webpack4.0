@@ -10,5 +10,6 @@ const aa = {
 }
 
 export {
-    ff
+    ff,
+    aa
 }
