@@ -58,6 +58,12 @@ module.exports = {
                     priority: -10,
                     name: 'vendors',
                 }
+
+
+
+
+
+
             }
         }
     },
