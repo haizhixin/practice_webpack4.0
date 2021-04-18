@@ -9,19 +9,23 @@ module.exports = {
     resolveLoader: {
         modules: ['node_modules', './loaders']
     },
+
+
+
+
     module: {
         rules: [{
             test: /\.js/,
             use: [
-            {
-                loader: 'replaceLoader',
-            },
-            {
-                loader: 'replaceLoaderAsync',
-                options: {
-                    name: 'lee'
-                }
-            }, ]
+                {
+                    loader: 'replaceLoader',
+                },
+                {
+                    loader: 'replaceLoaderAsync',
+                    options: {
+                        name: 'lee'
+                    }
+                },]
         }]
     },
     output: {
